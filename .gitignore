@@ -10,5 +10,11 @@ wheels/
 .venv
 .env
 
+# Logs
+logs/
+*.log
+
 # Asset list
 ondo_list.csv
+backed_list.csv
+command.md

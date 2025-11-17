@@ -138,8 +138,8 @@ def process_csv(csv_file: str, bearer_token_asset_info: str, bearer_token_pricin
             if stdout:
                 print(f"✅ Price updated successfully!")
                 print(f"   stdout present: {len(stdout)} characters")
-                # Print first 200 chars of stdout
-                print(f"   Preview: {stdout[:200]}...")
+                # Print first 600 chars of stdout
+                print(f"   Preview: {stdout[:600]}...")
                 successful += 1
             else:
                 print(f"⚠️  Warning: No stdout in response")
